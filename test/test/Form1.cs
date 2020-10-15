@@ -50,6 +50,7 @@ namespace test
             conn.Host = "ftp://" + "192.168.1.12";
             conn.AutoConnect();
 
+            MessageBox.Show("切换账号修改测试");
         }
         private void downloadallfiles(string ftppath,string savepath)
         {
